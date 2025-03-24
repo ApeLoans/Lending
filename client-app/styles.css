@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    height: 100%; /* Ensure the body takes up the full viewport height */
+}
+
+body {
+    background-color: #FFFFFF; /* White */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Minimum height of the viewport */
+}
+
+header {
+    background-color: #0254F6; /* New blue */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF; /* White */
+}
+
+nav a {
+    margin-left: 20px;
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #000000; /* Black */
+}
+
+main {
+    flex: 1; /* Makes main content take up remaining space, pushing footer to bottom */
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #0254F6; /* New blue */
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #FFFFFF; /* White */
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #FFFFFF; /* White */
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 25px;
+    background-color: #0254F6; /* New blue */
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #FFFFFF; /* White border */
+}
+
+.btn:hover {
+    background-color: #FFFFFF; /* White */
+    color: #000000; /* Black */
+}
+
+.info {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.info:nth-child(odd) {
+    background-color: #0254F6; /* New blue */
+}
+
+.info:nth-child(even) {
+    background-color: #FFFFFF; /* White */
+}
+
+.info h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #000000; /* Black */
+}
+
+.info p {
+    font-size: 16px;
+    color: #000000; /* Black */
+}
+
+.info:nth-child(odd) h2,
+.info:nth-child(odd) p {
+    color: #FFFFFF; /* White for text on blue background */
+}
+
+#borrow {
+    margin-top: 0; /* Remove previous margin since we're using flexbox to position */
+}
+
+footer {
+    background-color: #0254F6; /* New blue */
+    padding: 15px;
+    text-align: center;
+    color: #FFFFFF; /* White */
+    font-size: 14px;
+}
