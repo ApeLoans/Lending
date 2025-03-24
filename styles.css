@@ -5,8 +5,15 @@
     font-family: Arial, sans-serif;
 }
 
+html, body {
+    height: 100%; /* Ensure the body takes up the full viewport height */
+}
+
 body {
     background-color: #FFFFFF; /* White */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Minimum height of the viewport */
 }
 
 header {
@@ -32,6 +39,10 @@ nav a {
 
 nav a:hover {
     color: #000000; /* Black */
+}
+
+main {
+    flex: 1; /* Makes main content take up remaining space, pushing footer to bottom */
 }
 
 .hero {
@@ -100,6 +111,10 @@ nav a:hover {
 .info:nth-child(odd) h2,
 .info:nth-child(odd) p {
     color: #FFFFFF; /* White for text on blue background */
+}
+
+#borrow {
+    margin-top: 0; /* Remove previous margin since we're using flexbox to position */
 }
 
 footer {
