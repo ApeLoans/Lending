@@ -20,7 +20,7 @@ Powered by ApeChain’s speed and security, we’re redefining lending, putting 
   - NFT Holder Utility
   - Peer-to-Peer Risk Management
   - User-Friendly Dashboard
-  - 
+
 
 ### Further development
 
