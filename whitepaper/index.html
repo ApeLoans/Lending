@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ape.Loans Whitepaper</title>
     <link rel="stylesheet" href="/styles.css">
+    <style>
+        .whitepaper-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .pdf-viewer {
+            width: 816px; /* Standard paper width (8.5 inches at 96 DPI) */
+            height: 1056px; /* Standard paper height (11 inches at 96 DPI) */
+            border: none;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,8 +34,10 @@
     <main>
         <section class="hero">
             <h1>Ape.Loans Whitepaper</h1>
-            <iframe src="ApeLoansOverview.pdf" class="pdf-viewer"></iframe>
-            <a href="ApeLoansOverview.pdf" download class="btn">Download Whitepaper</a>
+            <div class="whitepaper-container">
+                <iframe src="ApeLoansOverview.pdf" class="pdf-viewer"></iframe>
+                <a href="ApeLoansOverview.pdf" download class="btn">Download Whitepaper</a>
+            </div>
         </section>
     </main>
     <footer>
