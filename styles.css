@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #0254F6; /* New blue */
+    background-color: #0054FA; /* New blue */
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@ main {
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background-color: #0254F6; /* New blue */
+    background-color: #0054FA; /* New blue */
 }
 
 .hero h1 {
@@ -71,7 +71,7 @@ main {
 
 .btn {
     padding: 10px 25px;
-    background-color: #0254F6; /* New blue */
+    background-color: #0054FA; /* New blue */
     color: #FFFFFF; /* White */
     text-decoration: none;
     border-radius: 5px;
@@ -90,7 +90,7 @@ main {
 }
 
 .info:nth-child(odd) {
-    background-color: #0254F6; /* New blue */
+    background-color: #0054FA; /* New blue */
 }
 
 .info:nth-child(even) {
@@ -118,7 +118,7 @@ main {
 }
 
 footer {
-    background-color: #0254F6; /* New blue */
+    background-color: #0054FA; /* New blue */
     padding: 15px;
     text-align: center;
     color: #FFFFFF; /* White */
